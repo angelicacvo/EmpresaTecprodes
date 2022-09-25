@@ -1,4 +1,29 @@
 ﻿@page
-@model EmpresaTec.Sitioweb.App.Pages.CreateModel
+@model EmpresaTec.App.Sitioweb.App.Pages.CreateModel
 @{
 }
+<h1>Crear proyectos</h1>
+<!--Formulario de creacion de un proyecto-->
+<form method="post">
+    <div asp-validation-summary="All" class="text-danger"></div> <!--cuando se equivocan poniendo el correo por ej-->
+    
+    <div class="form-group">
+        <label asp-for="actualState.name" class="control-label"></label>
+        <input asp-for="actualState.name" class="form-control" />
+        <span asp-validation-for="actualState.name" class="text-danger"></span>
+    </div>
+
+     
+    <div class="form-group">
+        <label asp-for="actualState.description" class="control-label"></label>
+        <input asp-for="actualState.description" class="form-control" />
+        <span asp-validation-for="actualState.description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+       <input type="submit" value="Crear" class="btn btn-primary" />
+    </div>
+
+
+</form>
+

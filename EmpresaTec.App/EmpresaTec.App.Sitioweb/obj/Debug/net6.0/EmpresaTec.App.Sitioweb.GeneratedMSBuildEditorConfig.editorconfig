@@ -15,12 +15,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Sitioweb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/ActualState/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0dWFsU3RhdGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/ActualState/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0dWFsU3RhdGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/ActualState/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0dWFsU3RhdGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/ActualState/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0dWFsU3RhdGVcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/Login/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/Login/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/Login/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/Login/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/Privacy.cshtml]
@@ -43,8 +75,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdFxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/Services/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/Services/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/Services/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/Services/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXNcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/User/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Tecprodes/EmpresaTec.App/EmpresaTec.App.Sitioweb/Pages/_ViewImports.cshtml]
