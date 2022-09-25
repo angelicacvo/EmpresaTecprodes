@@ -10,3 +10,15 @@ C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\obj\Debug\net6.0\EmpresaTec.A
 C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\obj\Debug\net6.0\refint\EmpresaTec.App.Dominio.dll
 C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\obj\Debug\net6.0\EmpresaTec.App.Dominio.pdb
 C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\obj\Debug\net6.0\ref\EmpresaTec.App.Dominio.dll
+C:\Users\julia\OneDrive\Escritorio\EmpresaTecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\bin\Debug\net6.0\EmpresaTec.App.Dominio.deps.json
+C:\Users\julia\OneDrive\Escritorio\EmpresaTecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\bin\Debug\net6.0\EmpresaTec.App.Dominio.dll
+C:\Users\julia\OneDrive\Escritorio\EmpresaTecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\bin\Debug\net6.0\EmpresaTec.App.Dominio.pdb
+C:\Users\julia\OneDrive\Escritorio\EmpresaTecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\obj\Debug\net6.0\EmpresaTec.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\julia\OneDrive\Escritorio\EmpresaTecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\obj\Debug\net6.0\EmpresaTec.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julia\OneDrive\Escritorio\EmpresaTecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\obj\Debug\net6.0\EmpresaTec.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\julia\OneDrive\Escritorio\EmpresaTecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\obj\Debug\net6.0\EmpresaTec.App.Dominio.AssemblyInfo.cs
+C:\Users\julia\OneDrive\Escritorio\EmpresaTecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\obj\Debug\net6.0\EmpresaTec.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\julia\OneDrive\Escritorio\EmpresaTecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\obj\Debug\net6.0\EmpresaTec.App.Dominio.dll
+C:\Users\julia\OneDrive\Escritorio\EmpresaTecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\obj\Debug\net6.0\refint\EmpresaTec.App.Dominio.dll
+C:\Users\julia\OneDrive\Escritorio\EmpresaTecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\obj\Debug\net6.0\EmpresaTec.App.Dominio.pdb
+C:\Users\julia\OneDrive\Escritorio\EmpresaTecprodes\EmpresaTec.App\EmpresaTec.App.Dominio\obj\Debug\net6.0\ref\EmpresaTec.App.Dominio.dll

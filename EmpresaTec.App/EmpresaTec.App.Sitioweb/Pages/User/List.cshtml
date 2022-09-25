@@ -1,5 +1,5 @@
 ﻿@page
-@model EmpresaTec.App.Sitioweb.App.Pages.ListModel
+@model EmpresaTec.App.Sitioweb.App.Pages.ListModelU
 @{
 }
 <h1>Listado de usuarios</h1>
@@ -17,14 +17,14 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var project in Model.users) //Model conecta con el List.cshtml.cs
+        @foreach (var user in Model.users) //Model conecta con el List.cshtml.cs
         {
          <tr>
-            <td>@project.name</td>
-            <td>@project.IdNumber</td>
-            <td>@project.phoneNumber</td>
-            <td>@project.address</td>
-            <td>@project.projectId</td>
+            <td>@user.name</td>
+            <td>@user.IdNumber</td>
+            <td>@user.phoneNumber</td>
+            <td>@user.address</td>
+            <td>@user.projectId</td>
             <td>
                 <a class="btn btn-danger" asp-page=".\Delete" asp-route-id="@user.userId">Borrar</a>
             </td>

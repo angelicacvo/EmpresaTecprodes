@@ -10,13 +10,13 @@ using EmpresaTec.App.Persistencia;
 
 namespace EmpresaTec.App.Sitioweb.App.Pages
 {
-    public class EditModel : PageModel
+    public class EditModelA : PageModel
     {
         private IRepositorioActualState _repoActualState {get; set;}
         [BindProperty]
         public ActualState actualState {get; set;}
 
-        public EditModel()
+        public EditModelA()
         {
             _repoActualState = new RepositorioActualState(new EmpresaTec.App.Persistencia.ApplicationContext());
         }

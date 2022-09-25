@@ -9,13 +9,13 @@ using EmpresaTec.App.Persistencia;
 
 namespace EmpresaTec.App.Sitioweb.App.Pages
 {
-    public class DeleteModel : PageModel
+    public class DeleteModelp : PageModel
     {
         public IRepositorioProject _repoProject {get; set;}
         [BindProperty]
         public Project project {get; set;}
 
-        public DeleteModel()
+        public DeleteModelp()
         {
             _repoProject = new RepositorioProject(new EmpresaTec.App.Persistencia.ApplicationContext());
         }

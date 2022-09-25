@@ -9,13 +9,13 @@ using EmpresaTec.App.Persistencia;
 
 namespace EmpresaTec.App.Sitioweb.App.Pages
 {
-    public class CreateModel : PageModel
+    public class CreateModelS : PageModel
     {
         private IRepositorioServices _repoServices {get; set;}
         [BindProperty]
         public Services services {get; set;}
 
-        public CreateModel()
+        public CreateModelS()
         {
             _repoServices = new RepositorioServices(new EmpresaTec.App.Persistencia.ApplicationContext());
         }

@@ -1,5 +1,5 @@
 ﻿@page
-@model EmpresaTec.App.Sitioweb.App.Pages.ListModel
+@model EmpresaTec.App.Sitioweb.App.Pages.ListModelS
 @{
 }
 <h1>Listado de proyectos</h1>
@@ -14,7 +14,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var project in Model.services) //Model conecta con el List.cshtml.cs
+        @foreach (var services in Model.services) //Model conecta con el List.cshtml.cs
         {
          <tr>
             <td>@services.name</td>

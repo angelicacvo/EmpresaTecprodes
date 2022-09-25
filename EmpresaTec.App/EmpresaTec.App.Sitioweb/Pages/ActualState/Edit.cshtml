@@ -1,5 +1,5 @@
 ﻿@page
-@model EmpresaTec.App.Sitioweb.App.Pages.EditModel
+@model EmpresaTec.App.Sitioweb.App.Pages.EditModelA
 @{
 }
 <h1>Editar estado actual</h1>
@@ -21,7 +21,7 @@
         <span asp-validation-for="actualState.description" class="text-danger"></span>
     </div>
 
-    <input type="hidden" asp-for="project.projectId" />
+    <input type="hidden" asp-for="actualState.actualStateId" />
     <div class="form-group">
        <input type="submit" value="Editar" class="btn btn-primary" />
     </div>

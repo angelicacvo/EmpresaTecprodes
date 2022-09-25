@@ -10,12 +10,12 @@ using EmpresaTec.App.Persistencia;
 
 namespace EmpresaTec.App.Sitioweb.App.Pages
 {
-    public class ListModel : PageModel
+    public class ListModelS : PageModel
     {
         public IEnumerable<Services> services {get; set;}
         private IRepositorioServices _repoServices;
 
-        public ListModel()
+        public ListModelS()
         {
             _repoServices = new RepositorioServices(new EmpresaTec.App.Persistencia.ApplicationContext());
         }

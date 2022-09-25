@@ -10,12 +10,12 @@ using EmpresaTec.App.Persistencia;
 
 namespace EmpresaTec.App.Sitioweb.App.Pages
 {
-    public class ListModel : PageModel
+    public class ListModelA : PageModel
     {
         public IEnumerable<ActualState> actualStates {get; set;}
         private IRepositorioActualState _repoActualState;
 
-        public ListModel()
+        public ListModelA()
         {
             _repoActualState = new RepositorioActualState (new EmpresaTec.App.Persistencia.ApplicationContext());
         }

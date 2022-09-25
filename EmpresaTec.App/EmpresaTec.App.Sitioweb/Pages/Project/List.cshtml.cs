@@ -12,12 +12,12 @@ using EmpresaTec.App.Persistencia;
 
 namespace EmpresaTec.App.Sitioweb.App.Pages
 {
-    public class ListModel : PageModel
+    public class ListModelP : PageModel
     {
         public IEnumerable<Project> projects {get; set;}
         private IRepositorioProject _repoProject;
 
-        public ListModel() //Constructor para que se ingrese a la página se cargue la info del repositorio
+        public ListModelP() //Constructor para que se ingrese a la página se cargue la info del repositorio
         {
             _repoProject = new RepositorioProject(new EmpresaTec.App.Persistencia.ApplicationContext());
         }

@@ -1,5 +1,5 @@
 ﻿@page
-@model EmpresaTec.App.Sitioweb.App.Pages.ListModel
+@model EmpresaTec.App.Sitioweb.App.Pages.ListModelA
 @{
 }
 <h1>Listado de estados actuales</h1>
@@ -14,7 +14,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var actualState in Model.actualState)
+        @foreach (var actualState in Model.actualStates)
         {
          <tr>
             <td>@actualState.name</td>

@@ -10,12 +10,12 @@ using EmpresaTec.App.Persistencia;
 
 namespace EmpresaTec.App.Sitioweb.App.Pages
 {
-    public class ListModel : PageModel
+    public class ListModelU : PageModel
     {
         public IEnumerable<User> users {get; set;}
         private IRepositorioUser _repoUser;
 
-        public ListModel()
+        public ListModelU()
         {
             _repoUser = new RepositorioUser(new EmpresaTec.App.Persistencia.ApplicationContext());
         }
