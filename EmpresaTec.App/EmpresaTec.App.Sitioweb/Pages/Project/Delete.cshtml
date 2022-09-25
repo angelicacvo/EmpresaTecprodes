@@ -1,0 +1,14 @@
+﻿@page
+@model EmpresaTec.App.Sitioweb.App.Pages.DeleteModel
+@{
+}
+<h1>Eliminar proyectos</h1>
+<form method="post">
+    <input type="hidden" asp-for="project.projectId" />
+    <h3>¿Está seguro de borrar el proyecto @Model.project.name?</h3>
+    <input type="submit" value="Borrar" class="btn btn-danger" />
+    <a asp-page="/Project/List">Cancelar</a>
+</form>
+
+
+

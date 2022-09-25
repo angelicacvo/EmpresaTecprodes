@@ -1,0 +1,17 @@
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\bin\Debug\net6.0\EmpresaTec.App.Persistencia.deps.json
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\bin\Debug\net6.0\EmpresaTec.App.Persistencia.runtimeconfig.json
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\bin\Debug\net6.0\EmpresaTec.App.Persistencia.dll
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\bin\Debug\net6.0\EmpresaTec.App.Persistencia.pdb
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\obj\Debug\net6.0\EmpresaTec.App.Persistencia.csproj.AssemblyReference.cache
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\obj\Debug\net6.0\EmpresaTec.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\obj\Debug\net6.0\EmpresaTec.App.Persistencia.AssemblyInfoInputs.cache
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\obj\Debug\net6.0\EmpresaTec.App.Persistencia.AssemblyInfo.cs
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\obj\Debug\net6.0\EmpresaTec.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\obj\Debug\net6.0\EmpresaTec.App.Persistencia.dll
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\obj\Debug\net6.0\refint\EmpresaTec.App.Persistencia.dll
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\obj\Debug\net6.0\EmpresaTec.App.Persistencia.pdb
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\obj\Debug\net6.0\EmpresaTec.App.Persistencia.genruntimeconfig.cache
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\obj\Debug\net6.0\ref\EmpresaTec.App.Persistencia.dll
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\bin\Debug\net6.0\EmpresaTec.App.Dominio.dll
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\bin\Debug\net6.0\EmpresaTec.App.Dominio.pdb
+C:\Tecprodes\EmpresaTec.App\EmpresaTec.App.Persistencia\obj\Debug\net6.0\EmpresaTec.App.Persistencia.csproj.CopyComplete
