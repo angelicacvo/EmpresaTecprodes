@@ -1,4 +1,27 @@
 ﻿@page
-@model EmpresaTec.Sitioweb.App.Pages.EditModel
+@model EmpresaTec.App.Sitioweb.App.Pages.EditModel
 @{
 }
+<h1>Editar servicios</h1>
+
+<form method="post">
+    <div asp-validation-summary="All" class="text-danger"></div> 
+    
+    <div class="form-group">
+        <label asp-for="services.name" class="control-label"></label>
+        <input asp-for="services.name" class="form-control" />
+        <span asp-validation-for="services.name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="services.description" class="control-label"></label>
+        <input asp-for="services.description" class="form-control"/>
+        <span asp-validation-for="services.description" class="text-danger"></span>
+    </div>
+
+    <input type="hidden" asp-for="services.servicesId" />
+    <div class="form-group">
+       <input type="submit" value="Editar" class="btn btn-primary" />
+    </div>
+
+</form>

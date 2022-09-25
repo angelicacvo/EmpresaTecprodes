@@ -1,4 +1,36 @@
 ﻿@page
-@model EmpresaTec.Sitioweb.App.Pages.ListModel
+@model EmpresaTec.App.Sitioweb.App.Pages.ListModel
 @{
 }
+<h1>Listado de proyectos</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+
+            <th>Borrar</th>
+            <th>Editar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var project in Model.services) //Model conecta con el List.cshtml.cs
+        {
+         <tr>
+            <td>@services.name</td>
+            <td>@services.description</td>
+ 
+            <td>
+                <a class="btn btn-danger" asp-page=".\Delete" asp-route-id="@services.servicesId">Borrar</a>
+            </td>
+            <td>
+                <a class="btn btn-info" asp-page=".\Edit" asp-route-id="@services.servicesId">Editar</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<td>
+    <a class="btn btn-warning" asp-page=".\Create">Crear servicio</a>
+</td>

@@ -1,4 +1,13 @@
 ﻿@page
-@model EmpresaTec.Sitioweb.App.Pages.DeleteModel
+@model EmpresaTec.App.Sitioweb.App.Pages.DeleteModel
 @{
 }
+<h1>Eliminar servicios</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="services.servicesId" />
+    <h3>¿Está seguro de borrar el servicio @Model.services.name?</h3>
+    <input type="submit" value="Borrar" class="btn btn-danger" />
+    <a asp-page="/Services/List">Cancelar</a>
+</form>
+

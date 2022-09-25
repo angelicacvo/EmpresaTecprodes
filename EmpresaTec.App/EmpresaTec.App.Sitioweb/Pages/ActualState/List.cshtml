@@ -1,4 +1,35 @@
 ﻿@page
-@model EmpresaTec.Sitioweb.App.Pages.ListModel
+@model EmpresaTec.App.Sitioweb.App.Pages.ListModel
 @{
 }
+<h1>Listado de estados actuales</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+
+            <th>Borrar</th>
+            <th>Editar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var actualState in Model.actualState)
+        {
+         <tr>
+            <td>@actualState.name</td>
+            <td>@actualState.description</td>
+            <td>
+                <a class="btn btn-danger" asp-page=".\Delete" asp-route-id="@actualState.actualStateId">Borrar</a>
+            </td>
+            <td>
+                <a class="btn btn-info" asp-page=".\Edit" asp-route-id="@actualState.actualStateId">Editar</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<td>
+    <a class="btn btn-warning" asp-page=".\Create">Crear estado actual</a>
+</td>

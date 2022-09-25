@@ -29,7 +29,7 @@ namespace EmpresaTec.App.Persistencia
                 UserU.name =useractualizar.name;
                 UserU.IdNumber =useractualizar.IdNumber;
                 UserU.phoneNumber =useractualizar.phoneNumber;
-                UserU. address =useractualizar.address;
+                UserU.address =useractualizar.address;
                 _appContext.SaveChanges();
             }
             return UserU;

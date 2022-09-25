@@ -1,4 +1,11 @@
 ﻿@page
-@model EmpresaTec.Sitioweb.App.Pages.DeleteModel
+@model EmpresaTec.App.Sitioweb.App.Pages.DeleteModel
 @{
 }
+<h1>Eliminar Estado Actual</h1>
+<form method="post">
+    <input type="hidden" asp-for="actualState.actualStateId" />
+    <h3>¿Está seguro de borrar el estado actual @Model.actualState.name?</h3>
+    <input type="submit" value="Borrar" class="btn btn-danger" />
+    <a asp-page="/ActualState/List">Cancelar</a>
+</form>

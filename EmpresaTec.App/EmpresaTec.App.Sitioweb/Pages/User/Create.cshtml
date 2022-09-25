@@ -1,4 +1,44 @@
 ﻿@page
-@model EmpresaTec.Sitioweb.App.Pages.CreateModel
+@model EmpresaTec.App.Sitioweb.App.Pages.CreateModel
 @{
 }
+<h1>Crear usuario</h1>
+
+<form method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    
+        <div class="form-group">
+        <label asp-for="user.name" class="control-label"></label>
+        <input asp-for="user.name" class="form-control" />
+        <span asp-validation-for="user.name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="user.IdNumber" class="control-label"></label>
+        <input asp-for="user.IdNumber" class="form-control" />
+        <span asp-validation-for="user.IdNumber" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="user.phoneNumber" class="control-label"></label>
+        <input asp-for="user.phoneNumber" class="form-control" />
+        <span asp-validation-for="user.phoneNumber" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="user.address" class="control-label"></label>
+        <input asp-for="user.address" class="form-control" />
+        <span asp-validation-for="user.address" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="user.projectId" class="control-label"></label>
+        <input asp-for="user.projectId" class="form-control" />
+        <span asp-validation-for="user.projectId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+       <input type="submit" value="Crear" class="btn btn-primary" />
+    </div>
+
+</form>

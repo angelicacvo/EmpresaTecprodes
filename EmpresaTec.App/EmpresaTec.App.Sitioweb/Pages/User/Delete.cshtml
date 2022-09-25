@@ -1,4 +1,11 @@
 ﻿@page
-@model EmpresaTec.Sitioweb.App.Pages.DeleteModel
+@model EmpresaTec.App.Sitioweb.App.Pages.DeleteModel
 @{
 }
+<h1>Eliminar usuarios</h1>
+<form method="post">
+    <input type="hidden" asp-for="user.userId" />
+    <h3>¿Está seguro de borrar el usuario @Model.user.name?</h3>
+    <input type="submit" value="Borrar" class="btn btn-danger" />
+    <a asp-page="/User/List">Cancelar</a>
+</form>
