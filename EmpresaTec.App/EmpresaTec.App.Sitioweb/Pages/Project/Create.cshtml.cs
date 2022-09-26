@@ -24,7 +24,7 @@ namespace EmpresaTec.App.Sitioweb.App.Pages
         {
         }
 
-        public IActionResult onPost (Project project)
+        public IActionResult OnPost (Project project)
         {
             if (ModelState.IsValid)
             {
