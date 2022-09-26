@@ -22,23 +22,23 @@
     <tbody>
         @foreach (var project in Model.projects) //Model conecta con el List.cshtml.cs
         {
-         <tr>
-            <td>@project.name</td>
-            <td>@project.code</td>
-            <td>@project.stimatedDate</td>
-            <td>@project.cost</td>
-            <td>@project.startDate</td>
-            <td>@project.description</td>
-            <td>@project.actualStateId</td>
-            <td>@project.servicesId</td>
+            <tr>
+                <td>@project.name</td>
+                <td>@project.code</td>
+                <td>@project.stimatedDate</td>
+                <td>@project.cost</td>
+                <td>@project.startDate</td>
+                <td>@project.description</td>
+                <td>@project.actualStateId</td>
+                <td>@project.servicesId</td>
 
-            <td>
-                <a class="btn btn-danger" asp-page=".\Delete" asp-route-id="@project.projectId">Borrar</a>
-            </td>
-            <td>
-                <a class="btn btn-info" asp-page=".\Edit" asp-route-id="@project.projectId">Editar</a>
-            </td>
-        </tr>
+                <td>
+                    <a class="btn btn-danger" asp-page=".\Delete" asp-route-id="@project.projectId">Borrar</a>
+                </td>
+                <td>
+                    <a class="btn btn-info" asp-page=".\Edit" asp-route-id="@project.projectId">Editar</a>
+                </td>
+            </tr>
         }
     </tbody>
 </table>
@@ -46,3 +46,5 @@
 <td>
     <a class="btn btn-warning" asp-page=".\Create">Crear proyecto</a>
 </td>
+
+
