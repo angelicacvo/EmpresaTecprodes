@@ -5973,19 +5973,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\julia\\.nuget\\packages\\": {}
+    "C:\\Users\\Angélica\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\julia\\OneDrive\\Escritorio\\EmpresaTecprodes\\EmpresaTec.App\\EmpresaTec.App.Sitioweb\\EmpresaTec.App.Sitioweb.csproj",
+      "projectUniqueName": "C:\\Tecprodes\\EmpresaTec.App\\EmpresaTec.App.Sitioweb\\EmpresaTec.App.Sitioweb.csproj",
       "projectName": "EmpresaTec.App.Sitioweb",
-      "projectPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\EmpresaTecprodes\\EmpresaTec.App\\EmpresaTec.App.Sitioweb\\EmpresaTec.App.Sitioweb.csproj",
-      "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\EmpresaTecprodes\\EmpresaTec.App\\EmpresaTec.App.Sitioweb\\obj\\",
+      "projectPath": "C:\\Tecprodes\\EmpresaTec.App\\EmpresaTec.App.Sitioweb\\EmpresaTec.App.Sitioweb.csproj",
+      "packagesPath": "C:\\Users\\Angélica\\.nuget\\packages\\",
+      "outputPath": "C:\\Tecprodes\\EmpresaTec.App\\EmpresaTec.App.Sitioweb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Angélica\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -5997,11 +5997,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\julia\\OneDrive\\Escritorio\\EmpresaTecprodes\\EmpresaTec.App\\EmpresaTec.App.Dominio\\EmpresaTec.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\EmpresaTecprodes\\EmpresaTec.App\\EmpresaTec.App.Dominio\\EmpresaTec.App.Dominio.csproj"
+            "C:\\Tecprodes\\EmpresaTec.App\\EmpresaTec.App.Dominio\\EmpresaTec.App.Dominio.csproj": {
+              "projectPath": "C:\\Tecprodes\\EmpresaTec.App\\EmpresaTec.App.Dominio\\EmpresaTec.App.Dominio.csproj"
             },
-            "C:\\Users\\julia\\OneDrive\\Escritorio\\EmpresaTecprodes\\EmpresaTec.App\\EmpresaTec.App.Persistencia\\EmpresaTec.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\EmpresaTecprodes\\EmpresaTec.App\\EmpresaTec.App.Persistencia\\EmpresaTec.App.Persistencia.csproj"
+            "C:\\Tecprodes\\EmpresaTec.App\\EmpresaTec.App.Persistencia\\EmpresaTec.App.Persistencia.csproj": {
+              "projectPath": "C:\\Tecprodes\\EmpresaTec.App\\EmpresaTec.App.Persistencia\\EmpresaTec.App.Persistencia.csproj"
             }
           }
         }
@@ -6034,7 +6034,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
