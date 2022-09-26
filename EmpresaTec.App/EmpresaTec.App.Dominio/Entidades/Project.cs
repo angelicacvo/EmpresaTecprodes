@@ -22,6 +22,7 @@ namespace EmpresaTec.App.Dominio
         public ActualState actualState {get;set;}
         public int? servicesId {get;set;}
         public Services services {get;set;}
+        
                 
     }
 }

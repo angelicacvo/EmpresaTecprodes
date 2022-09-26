@@ -34,6 +34,7 @@ namespace EmpresaTec.App.Persistencia
                 ProjectU.startDate = projectactualizar.startDate;
                 ProjectU.description = projectactualizar.description;
                 ProjectU.services = projectactualizar.services;
+                ProjectU.actualState = projectactualizar.actualState;
                 _appContext.SaveChanges();
             }
             return ProjectU;
