@@ -1,18 +1,33 @@
-html {
-  font-size: 14px;
+
+
+
+body{
+  margin: 0;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  
+  
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+footer{
+
+  padding: 1em 0;
+  text-align: center;
+  
+  
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+#content {
+  overflow-y: auto;
+  height: 100vh;
+  padding-bottom: 5rem;
 }
 
-body {
-  margin-bottom: 60px;
+.avatar {
+  max-width: 35px;
+}
+
+.btn-search {
+  right: 0;
 }
