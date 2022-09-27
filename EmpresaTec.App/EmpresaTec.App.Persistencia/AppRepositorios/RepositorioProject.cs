@@ -33,8 +33,8 @@ namespace EmpresaTec.App.Persistencia
                 ProjectU.cost = projectactualizar.cost;
                 ProjectU.startDate = projectactualizar.startDate;
                 ProjectU.description = projectactualizar.description;
-                ProjectU.services = projectactualizar.services;
-                ProjectU.actualState = projectactualizar.actualState;
+                ProjectU.servicesId = projectactualizar.servicesId;
+                ProjectU.actualStateId = projectactualizar.actualStateId;
                 _appContext.SaveChanges();
             }
             return ProjectU;
@@ -52,12 +52,38 @@ namespace EmpresaTec.App.Persistencia
 
         Project IRepositorioProject.ObtenerPorId(int id)
         {
-            return _appContext.Projects.FirstOrDefault(c => c.projectId == id); //Que me devuelva el primero o null
+            return _appContext.Projects.Where(c => c.projectId == id).Select(c => new Project
+            {
+                projectId = c.projectId,
+                name = c.name,
+                code = c.code,
+                stimatedDate = c.stimatedDate,
+                cost = c.cost,
+                startDate = c.startDate,
+                description = c.description,
+                actualStateId = c.actualStateId, 
+                servicesId = c.servicesId,
+                actualState = c.actualState,
+                services = c.services
+            }).FirstOrDefault(); 
         }
 
         IEnumerable<Project> IRepositorioProject.ObtenerTodos()
         {
-            return _appContext.Projects;
+            return _appContext.Projects.Select(c => new Project
+            {
+                projectId = c.projectId,
+                name = c.name,
+                code = c.code,
+                stimatedDate = c.stimatedDate,
+                cost = c.cost,
+                startDate = c.startDate,
+                description = c.description,
+                actualStateId = c.actualStateId, 
+                servicesId = c.servicesId,
+                actualState = c.actualState,
+                services = c.services
+            }).ToList();
         }
     }
 }

@@ -26,17 +26,9 @@ namespace EmpresaTec.App.Sitioweb.App.Pages
 
         public IActionResult OnPost (Project project)
         {
-            if (ModelState.IsValid)
-            {
-                _repoProject.Agregar(project);
-                return RedirectToPage("/Project/List");
-            }
-            else
-            {
-                return Page();
-            }
-            
-            
+            _repoProject.Agregar(project);
+            return RedirectToPage("/Project/List");
+           
         }
     }
 }

@@ -26,16 +26,8 @@ namespace EmpresaTec.App.Sitioweb.App.Pages
 
         public IActionResult OnPost (Services services)
         {
-            if (ModelState.IsValid)
-            {
-                _repoServices.Agregar(services);
-                return RedirectToPage("/Services/List");
-            }
-            else
-            {
-                return Page();
-            }
-            
+            _repoServices.Agregar(services);
+            return RedirectToPage("/Services/List");
             
         }
     }

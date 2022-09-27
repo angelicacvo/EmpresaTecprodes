@@ -26,17 +26,9 @@ namespace EmpresaTec.App.Sitioweb.App.Pages
 
         public IActionResult OnPost (ActualState actualState)
         {
-            if (ModelState.IsValid)
-            {
-                _repoActualState.Agregar(actualState);
-                return RedirectToPage("/ActualState/List");
-            }
-            else
-            {
-                return Page();
-            }
-            
-            
+            _repoActualState.Agregar(actualState);
+            return RedirectToPage("/ActualState/List");
+
         }
     }
 }

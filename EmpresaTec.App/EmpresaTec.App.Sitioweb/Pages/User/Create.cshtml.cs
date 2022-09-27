@@ -26,16 +26,8 @@ namespace EmpresaTec.App.Sitioweb.App.Pages
 
         public IActionResult OnPost (User user)
         {
-            if (ModelState.IsValid)
-            {
-                _repoUser.Agregar(user);
-                return RedirectToPage("/User/List");
-            }
-            else
-            {
-                return Page();
-            }
-            
+            _repoUser.Agregar(user);
+            return RedirectToPage("/User/List"); 
             
         }
     }
