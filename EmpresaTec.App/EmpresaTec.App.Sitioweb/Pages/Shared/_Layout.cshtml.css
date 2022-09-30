@@ -39,4 +39,8 @@ button.accept-policy {
   line-height: inherit;
 }
 
-
+#content {
+  overflow-y: auto;
+  height: 100vh;
+  padding-bottom: 5rem;
+}

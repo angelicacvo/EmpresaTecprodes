@@ -2,128 +2,133 @@
 @model EmpresaTec.App.Sitioweb.App.Pages.ListModelP
 @{
 }
-<h1>Listado de proyectos</h1>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Nombre</th>
-            <th>Código</th>
-            <th>Fecha estimada</th>
-            <th>Costo</th>
-            <th>Fecha de inicio</th>
-            <th>Descripción</th>
-            <th>Estado actual</th>
-            <th>Servicio</th>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 my-3">
+                <div class="card rounded-0">
+                    <div class="card-header bg-light">
+                        <h6 class="font-weight-bold mb-0">Proyectos</h6>
+                    </div>
+                    <br>
+                    <div class="container-fluid">
 
-            <th>Borrar</th>
-            <th>Editar</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var project in Model.projects) //Model conecta con el List.cshtml.cs
-        {
-            <tr>
-                <td>@project.name</td>
-                <td>@project.code</td>
-                <td>@project.stimatedDate</td>
-                <td>@project.cost</td>
-                <td>@project.startDate</td>
-                <td>@project.description</td>
-                <td>@project.actualStateId - @project.actualState.name </td>
-                <td>@project.servicesId - @project.services.name </td>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Código</th>
+                                    <th>Fecha estimada</th>
+                                    <th>Costo</th>
+                                    <th>Fecha de inicio</th>
+                                    <th>Descripción</th>
+                                    <th>Estado actual</th>
+                                    <th>Servicio</th>
 
-                <td>
-                    <a class="btn btn-danger" asp-page=".\Delete" asp-route-id="@project.projectId">Borrar</a>
-                </td>
-                <td>
-                    <a class="btn btn-info" asp-page=".\Edit" asp-route-id="@project.projectId">Editar</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+                                    <th>Borrar</th>
+                                    <th>Editar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var project in Model.projects) //Model conecta con el List.cshtml.cs
+                                {
+                                    <tr>
+                                        <td>@project.name</td>
+                                        <td>@project.code</td>
+                                        <td>@project.stimatedDate</td>
+                                        <td>@project.cost</td>
+                                        <td>@project.startDate</td>
+                                        <td>@project.description</td>
+                                        <td>@project.actualStateId - @project.actualState.name </td>
+                                        <td>@project.servicesId - @project.services.name </td>
 
-<td>
-    <a class="btn btn-warning" asp-page=".\Create">Crear proyecto</a>
-</td>
+                                        <td>
+                                            <a class="btn btn-danger" asp-page=".\Delete"
+                                            asp-route-id="@project.projectId">Borrar</a>
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-info" asp-page=".\Edit"
+                                            asp-route-id="@project.projectId">Editar</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-    CREAR PROYECTO
-</button>
+                        <td>
+                            <a class="btn btn-warning" asp-page=".\Create">Crear proyecto</a>
+                        </td>
 
- <div class="modal fade" id="staticBackdrop" data-backdrop="static"
-                                        data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
-                                        aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="staticBackdropLabel">PROYECTOS</h5>
-                                                    <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <div class="modal-body">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+                            CREAR PROYECTO
+                        </button>
 
-                                                        <form>
-                                                            <div class="form-row">
-                                                                <div class="form-group col-md-6">
-                                                                    <label for="inputEmail4">Nombre del proyecto</label>
-                                                                    <input type="email" class="form-control"
-                                                                        id="inputEmail4">
-                                                                </div>
-                                                                <div class="form-group col-md-6">
-                                                                    <label for="inputPassword4">Código</label>
-                                                                    <input type="password" class="form-control"
-                                                                        id="inputPassword4">
-                                                                </div>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <label for="inputAddress">Fecha estimada</label>
-                                                                <input type="text" class="form-control"
-                                                                    id="inputAddress" placeholder="20/09/2022">
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <label for="inputAddress2">Costo total del proyecto</label>
-                                                                <input type="text" class="form-control"
-                                                                    id="inputAddress2"
-                                                                    placeholder="Ej:2.566.000,00">
-                                                            </div>
-                                                            <div class="form-row">
-                                                                <div class="form-group col-md-6">
-                                                                    <label for="inputCity">Fecha de inicio</label>
-                                                                    <input type="text" class="form-control"
-                                                                        id="ej:08/09/2022">
-                                                                </div>
-                                                                <div class="form-group col-md-4">
-                                                                    <label for="inputState">Estado</label>
-                                                                    <select id="inputState" class="form-control">
-                                                                        <option selected>1</option>
-                                                                        <option>2</option>
-                                                                    </select>
-                                                                </div>
-                                                               
-                                                            </div>
-                                                            <div class="form-group col-md-2">
-                                                                <label for="inputZip">Servicio</label>
-                                                                <input type="text" class="form-control"
-                                                                    id="inputZip">
-                                                            </div>
-                                                            
-                                                            
-                                                        </form>
-                                                        <div>
+                        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">PROYECTOS</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="modal-body">
 
-                                                        </div>
+                                            <form>
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputEmail4">Nombre del proyecto</label>
+                                                        <input type="email" class="form-control" id="inputEmail4">
                                                     </div>
-                                                    <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary"
-                                                            data-dismiss="modal">Close</button>
-                                                        <a type="button" class="btn btn-primary"
-                                                            href="Proyectos.html">Guardar servicio</a>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputPassword4">Código</label>
+                                                        <input type="password" class="form-control" id="inputPassword4">
                                                     </div>
                                                 </div>
+                                                <div class="form-group">
+                                                    <label for="inputAddress">Fecha estimada</label>
+                                                    <input type="text" class="form-control" id="inputAddress"
+                                                        placeholder="20/09/2022">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="inputAddress2">Costo total del proyecto</label>
+                                                    <input type="text" class="form-control" id="inputAddress2"
+                                                        placeholder="Ej:2.566.000,00">
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputCity">Fecha de inicio</label>
+                                                        <input type="text" class="form-control" id="ej:08/09/2022">
+                                                    </div>
+                                                    <div class="form-group col-md-4">
+                                                        <label for="inputState">Estado</label>
+                                                        <select id="inputState" class="form-control">
+                                                            <option selected>1</option>
+                                                            <option>2</option>
+                                                        </select>
+                                                    </div>
+
+                                                </div>
+                                                <div class="form-group col-md-2">
+                                                    <label for="inputZip">Servicio</label>
+                                                    <input type="text" class="form-control" id="inputZip">
+                                                </div>
+
+
+                                            </form>
+                                            <div>
+
                                             </div>
                                         </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <a type="button" class="btn btn-primary" href="Proyectos.html">Guardar
+                                                servicio</a>
+                                        </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
