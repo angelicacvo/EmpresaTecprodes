@@ -47,7 +47,7 @@
     <div class="form-group">
         <label asp-for="project.actualState.name" class="control-label"></label>
         <select asp-for="project.actualStateId" class="form-control">
-            @foreach (var actualState in Model.actualStates)
+            @foreach (var actualState in Model.ActualStates)
             {
                 <option value="@actualState.actualStateId">@actualState.name</option>       
             }

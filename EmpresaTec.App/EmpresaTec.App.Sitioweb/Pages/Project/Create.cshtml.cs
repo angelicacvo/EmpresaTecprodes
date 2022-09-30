@@ -16,7 +16,7 @@ namespace EmpresaTec.App.Sitioweb.App.Pages
         private IRepositorioServices _repoServices {get; set;}
         [BindProperty]
         public Project project {get; set;}
-        public IEnumerable<ActualState> actualStates {get; set;}
+        public IEnumerable<ActualState> ActualStates {get; set;}
         public IEnumerable<Services> services {get; set;}
 
 
@@ -27,7 +27,7 @@ namespace EmpresaTec.App.Sitioweb.App.Pages
         
         public void OnGetA()
         {
-            actualStates = _repoActualState.ObtenerTodos();
+            ActualStates = _repoActualState.ObtenerTodos();
         }
 
         public void OnGetS()
