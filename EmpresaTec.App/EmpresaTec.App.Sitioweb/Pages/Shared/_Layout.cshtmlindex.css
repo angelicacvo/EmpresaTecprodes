@@ -1,0 +1,36 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+
+
+body{
+  margin: 0;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  
+  
+}
+
+footer{
+
+  padding: 1em 0;
+  text-align: center;
+  
+  
+}
+
+#content {
+  overflow-y: auto;
+  height: 100vh;
+  padding-bottom: 5rem;
+}
+
+.avatar {
+  max-width: 35px;
+}
+
+.btn-search {
+  right: 0;
+}
