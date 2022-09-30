@@ -27,13 +27,9 @@ namespace EmpresaTec.App.Sitioweb.App.Pages
             _repoServices = new RepositorioServices(new EmpresaTec.App.Persistencia.ApplicationContext());
         }
         
-        public void OnGetA()
+        public void OnGet()
         {
             ActualStates = _repoActualState.ObtenerTodos();
-        }
-
-        public void OnGetS()
-        {
             services = _repoServices.ObtenerTodos();
         }
 
