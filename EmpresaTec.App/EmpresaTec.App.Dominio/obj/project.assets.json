@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\julia\\.nuget\\packages\\": {}
+    "C:\\Users\\Angélica\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\julia\\OneDrive\\Escritorio\\EmpresaTecprodes\\EmpresaTec.App\\EmpresaTec.App.Dominio\\EmpresaTec.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Tecprodes\\EmpresaTec.App\\EmpresaTec.App.Dominio\\EmpresaTec.App.Dominio.csproj",
       "projectName": "EmpresaTec.App.Dominio",
-      "projectPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\EmpresaTecprodes\\EmpresaTec.App\\EmpresaTec.App.Dominio\\EmpresaTec.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\EmpresaTecprodes\\EmpresaTec.App\\EmpresaTec.App.Dominio\\obj\\",
+      "projectPath": "C:\\Tecprodes\\EmpresaTec.App\\EmpresaTec.App.Dominio\\EmpresaTec.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Angélica\\.nuget\\packages\\",
+      "outputPath": "C:\\Tecprodes\\EmpresaTec.App\\EmpresaTec.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Angélica\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

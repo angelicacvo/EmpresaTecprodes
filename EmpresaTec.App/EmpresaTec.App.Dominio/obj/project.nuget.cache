@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/LhHLq8gUQFvCCUpUAXgLnVrnpP2AVaPd/BCBXYn0qGz5TMijDmxvvRmftpeKq+DIqy9kFdSQVmAEZbJIHR0ww==",
+  "dgSpecHash": "YFYs4SEq4TVVyErlJA9TWUACJeo+/viRhZHzA5vRGQAxnt/9Wlkh6S01Z0FHTtluUg86N9J4H2xsQy91gncsPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\julia\\OneDrive\\Escritorio\\EmpresaTecprodes\\EmpresaTec.App\\EmpresaTec.App.Dominio\\EmpresaTec.App.Dominio.csproj",
+  "projectFilePath": "C:\\Tecprodes\\EmpresaTec.App\\EmpresaTec.App.Dominio\\EmpresaTec.App.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

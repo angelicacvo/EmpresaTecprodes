@@ -23,6 +23,8 @@ namespace EmpresaTec.App.Sitioweb.App.Pages
         public CreateModelP()
         {
             _repoProject = new RepositorioProject(new EmpresaTec.App.Persistencia.ApplicationContext());
+            _repoActualState = new RepositorioActualState(new EmpresaTec.App.Persistencia.ApplicationContext());
+            _repoServices = new RepositorioServices(new EmpresaTec.App.Persistencia.ApplicationContext());
         }
         
         public void OnGetA()

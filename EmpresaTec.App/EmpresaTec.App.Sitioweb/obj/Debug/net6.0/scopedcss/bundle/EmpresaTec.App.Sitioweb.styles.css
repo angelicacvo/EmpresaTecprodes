@@ -40,4 +40,8 @@ button.accept-policy[b-2cct2ciw3s] {
   line-height: inherit;
 }
 
-
+#content[b-2cct2ciw3s] {
+  overflow-y: auto;
+  height: 100vh;
+  padding-bottom: 5rem;
+}
