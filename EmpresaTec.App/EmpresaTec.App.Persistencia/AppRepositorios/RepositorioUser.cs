@@ -47,12 +47,31 @@ namespace EmpresaTec.App.Persistencia
 
         User IRepositorioUser.ObtenerPorId(int id)
         {
-            return _appContext.users.FirstOrDefault(c => c.userId == id);
+            return _appContext.users.Where(c => c.userId == id).Select(c => new User
+            {
+                userId = c.userId,
+                name = c.name,
+                IdNumber = c.IdNumber,
+                phoneNumber = c.phoneNumber,
+                address = c.address,
+                projectId = c.projectId,
+                project = c.project
+            }).FirstOrDefault(); 
         }
 
         IEnumerable<User> IRepositorioUser.ObtenerTodos()
         {
-            return _appContext.users;
+            return _appContext.users.Select(c => new User
+            {
+                userId = c.userId,
+                name = c.name,
+                IdNumber = c.IdNumber,
+                phoneNumber = c.phoneNumber,
+                address = c.address,
+                projectId = c.projectId,
+                project = c.project
+    
+            }).ToList();;
         }
     }
 }

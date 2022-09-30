@@ -43,16 +43,27 @@
         <span asp-validation-for="project.description" class="text-danger"></span>
     </div>
 
+    <!--COMBOBOX-->
     <div class="form-group">
-        <label asp-for="project.actualStateId" class="control-label"></label>
-        <input asp-for="project.actualStateId" class="form-control"/>
-        <span asp-validation-for="project.actualStateId" class="text-danger"></span>
+        <label asp-for="project.actualState.name" class="control-label"></label>
+        <select asp-for="project.actualStateId" class="form-control">
+            @foreach (var actualState in Model.actualStates)
+            {
+                <option value="@actualState.actualStateId">@actualState.name</option>       
+            }
+        </select>
+        <span asp-validation-for="project.actualState.name" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="project.servicesId" class="control-label"></label>
-        <input asp-for="project.servicesId" class="form-control"/>
-        <span asp-validation-for="project.servicesId" class="text-danger"></span>
+        <label asp-for="project.services.name" class="control-label"></label>
+        <select asp-for="project.servicesId" class="form-control">
+            @foreach (var services in Model.services)
+            {
+                <option value="@services.servicesId">@services.name</option>       
+            }
+        </select>
+        <span asp-validation-for="project.services.name" class="text-danger"></span>
     </div>
 
 
