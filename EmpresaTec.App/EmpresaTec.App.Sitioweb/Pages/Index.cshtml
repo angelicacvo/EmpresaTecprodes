@@ -1,51 +1,28 @@
-﻿
-@page
+﻿@page
 @model IndexModel
 @{
     ViewData["title"] = "Home page";
-     Layout = "_Layoutindex";
+
 }
 
-<div class="row justify-content-evenly">
-        <div class="col align-self-center">
-            <img src="./public/imagen1.jpg" class="rounded mx-auto d-block">
+
+<div class="col align-self-center">
+    
+        <div class="card-header text-center">TECPRODES: PROYECTOS Y SERVICIOS</div>
+        <div class="card-body text-center">
+            <h5 class="card-title">Crea tu proyecto con nosotros</h5>
+            <p class="card-text">Te ayudamos a crear tus proyectos, proveemos servicios y profesionales de alta calidad</p>
         </div>
-        <div class="col align-self-center">
-            <div class="card" style="width: 35rem;">
-                <div class="card-header">
-                    Account Login
-                </div>
-                <div class="card-body">
-                    <form action="Inicio.html" method="POST">
-                        <br>
-                        <div class="from-group">
-                            <input type="email" class="form-control" name="email" placeholder="Coloca tu email">
-                        </div>
-                        <br>
-                        <div class="from-group">
-                            <input type="password" class="form-control" name="Clave"
-                                placeholder="Coloca tu clave">
-                        </div>
-                        <br>
-                        <button  asp-area="" asp-page="/Project/List" class="btn btn-primary d-grid gap-2 col-6 mx-auto">
-                            Ingresar
-                        </button>
-                        <br>
-                        <a class="btn btn-primary d-grid gap-2 col-6 mx-auto" href="signin.html"
-                            role="button">Registrarse</a>
+    
+</div>
 
-                    </form>
 
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Visión</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Misión</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Acerca de nosotros</a></li>
-        </ul>
-        <p class="text-center text-muted">© 2022 Company, Inc</p>
-    </footer>
 
+<footer>
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Visión</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Misión</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Acerca de nosotros</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Company, Inc</p>
+</footer>
